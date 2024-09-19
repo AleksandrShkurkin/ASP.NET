@@ -1,0 +1,22 @@
+{
+    "companies": [
+      {
+        "name": "Microsoft",
+        "yearOfCreation": 1975,
+        "value": "2.5 Trillion",
+        "amountOfWorkers": 230000
+      },
+      {
+        "name": "Apple",
+        "yearOfCreation": 1976,
+        "value": "3 Trillion",
+        "amountOfWorkers": 170000
+      },
+      {
+        "name": "Google",
+        "yearOfCreation": 1998,
+        "value": "1.7 Trillion",
+        "amountOfWorkers": 140000
+      }
+    ]
+  }

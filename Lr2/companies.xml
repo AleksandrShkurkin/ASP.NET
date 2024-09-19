@@ -1,0 +1,22 @@
+<configuration>
+    <companies>
+        <company>
+            <name>Microsoft</name>
+            <yearOfCreation>1975</yearOfCreation>
+            <value>2.5 Trillion</value>
+            <amountOfWorkers>220000</amountOfWorkers>
+        </company>
+        <company>
+            <name>Apple</name>
+            <yearOfCreation>1976</yearOfCreation>
+            <value>3 Trillion</value>
+            <amountOfWorkers>250000</amountOfWorkers>
+        </company>
+        <company>
+            <name>Google</name>
+            <yearOfCreation>1998</yearOfCreation>
+            <value>1.7 Trillion</value>
+            <amountOfWorkers>150000</amountOfWorkers>
+        </company>
+    </companies>
+</configuration>
