@@ -1,12 +1,12 @@
-class Profile
+class ProfileService
 {
     public int Id { get; set; }
     public string Username { get; set; }
     public string Email { get; set; }
 
-    public static string GetProfile(int? id, IConfigurationSection configurationSection)
+    public string GetProfile(int? id, IConfigurationSection configurationSection)
     {
-        var profiles = configurationSection.Get<List<Profile>>();
+        var profiles = configurationSection.Get<List<ProfileService>>();
 
         if(id != null)
         {

@@ -1,6 +1,6 @@
-public class Books
+public class BooksService
 {
-    public static string BooksOut(IConfigurationSection configurationSection)
+    public string BooksOut(IConfigurationSection configurationSection)
     {
         return string.Join(", ", configurationSection.Get<List<string>>());
     }
