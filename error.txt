@@ -1,0 +1,7 @@
+=========
+Date: 11/4/2024 11:03:32 AM
+Message: Attempted to divide by zero.
+Stack trace:    at Program.<>c.<<<Main>$>b__0_3>d.MoveNext() in C:\0\___третійКурс\.Net\LR5\Lr5\Program.cs:line 37
+--- End of stack trace from previous location ---
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in C:\0\___третійКурс\.Net\LR5\Lr5\ErrorLoggingMiddleware.cs:line 14
+=========
