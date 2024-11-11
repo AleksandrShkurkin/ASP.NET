@@ -1,0 +1,28 @@
+@{
+    ViewBag.Title = "Download File";
+}
+
+<h2>Fill a form to download a file</h2>
+
+@using (Html.BeginForm("DownloadFile", "File", FormMethod.Post))
+{
+    <div>
+        <label for="firstName">First name:</label>
+        <input type="text" id="firstName" name="firstName" required />
+    </div>
+    <div>
+        <label for="lastName">Last name:</label>
+        <input type="text" id="lastName" name="lastName" required />
+    </div>
+    <div>
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text" required/>
+    </div>
+    <div>
+        <label for="fileName">File name:</label>
+        <input type="text" id="fileName" name="fileName" />
+    </div>
+    <div>
+        <button type="submit">Create and download</button>
+    </div>
+}
