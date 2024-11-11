@@ -1,0 +1,6 @@
+<form asp-action="ProductQuantity" method="post">
+    <div asp-validation-summary="All"></div>
+    <label>Enter quantity of products you want to order:</label>
+    <input type="number" name="quantity" min="1" required />
+    <button type="submit">Confirm</button>
+</form>
