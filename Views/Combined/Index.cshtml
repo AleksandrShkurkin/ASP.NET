@@ -1,0 +1,9 @@
+@model CombinedModel
+
+<h1>Combined info</h1>
+
+<h2>Products List</h2>
+@Html.Partial("_ProductTable", Model.Products)
+<br>
+<h2>Current Weather</h2>
+@Html.Partial("_Weather", Model.Weather)
