@@ -1,0 +1,64 @@
+<h2>Products (List View)</h2>
+<ul class="product-list">
+    @foreach (var product in Model)
+    {
+        <li>
+            <span class="product-id">ID: @product.Id</span>, 
+            <span class="product-name">@product.Name</span> - 
+            <span class="product-price">@product.Price$</span> 
+            (<span class="product-date">@product.CreateDate.ToShortDateString()</span>)
+        </li>
+    }
+</ul>
+
+<style>
+    .product-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 20px 0;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .product-list li {
+        background-color: #f9f9f9;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .product-list li:hover {
+        background-color: #e9f7e9;
+        transform: scale(1.02);
+    }
+
+    .product-id {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .product-name {
+        font-size: 1.1em;
+        color: #4CAF50;
+        font-weight: bold;
+    }
+
+    .product-price {
+        color: #d9534f;
+        font-weight: bold;
+    }
+
+    .product-date {
+        color: #888;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+    }
+</style>
